@@ -48,6 +48,7 @@ public class FreemarkerTest {
         template.process(map,out);
         System.out.println("生成静态成功！");
         //第八步：关闭流
+        //guanbi
         out.close();
     }
 }
